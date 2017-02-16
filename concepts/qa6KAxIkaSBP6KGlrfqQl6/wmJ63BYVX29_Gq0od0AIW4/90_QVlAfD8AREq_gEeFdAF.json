@@ -1,0 +1,50 @@
+{
+  "uri" : "local://90_QVlAfD8AREq_gEeFdAF/",
+  "name" : "App User Template",
+  "category" : ".user",
+  "parent" : "local://wmJ63BYVX29_Gq0od0AIW4/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_user_username",
+    "expr" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "_user_email",
+    "expr" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "_user_role",
+    "expr" : {
+      "str" : "ACCESS",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "_user_dashboardUri",
+    "expr" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "user",
+    "expr" : {
+      "concept" : "local://Q78_B7yoJTBAwqGVtTNpoA/",
+      "bindings" : {
+        "dashboardUri" : "_user_dashboardUri",
+        "role" : "_user_role",
+        "email" : "_user_email",
+        "username" : "_user_username"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "user"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}
